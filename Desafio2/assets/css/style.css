@@ -1,0 +1,45 @@
+.header {
+    height: 20em;
+    background-image: url(../imgs/fondoyo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+.header {
+    height: 10em;
+    padding: 5em;
+    font-size: 1em;
+    background-image: url("../imgs/fondoyop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 500;
+
+}
+.pinturas{
+    width: 80%;
+    margin: auto;
+} 
+.pinturas td{
+    width: 50%;
+    padding: 2em;
+}
+.pinturas img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+.footer{
+    height: 3em;
+    background-color: rgb(148, 190, 194);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}    
