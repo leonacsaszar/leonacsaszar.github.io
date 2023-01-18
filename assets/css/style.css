@@ -1,0 +1,50 @@
+body {
+    font-family: "Raleway", sans-serif;
+    
+  }
+  .subtitle{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+  h2 {
+    color: #eb8b31;
+  }
+  /* Hero Section */
+   h1{
+    text-align: center;
+    text justify-self: unset;
+   }
+   p{
+    text-align: center;
+   }
+  #Hero-Section {
+    background-image: url(../imgs/yofondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .botones{
+    align-items: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #eb8b31;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
